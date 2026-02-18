@@ -1,0 +1,26 @@
+.contact-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.contact-icon a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    background-color: #1ebe5d;
+}
